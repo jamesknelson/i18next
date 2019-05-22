@@ -510,6 +510,7 @@ declare namespace i18next {
   >(
     key: TKeys | TKeys[],
     options?: TOptions<TInterpolationMap> | string,
+    context?: string,
   ) => TResult;
 
   interface Resource {
